@@ -1,0 +1,57 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: red;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 50PX;
+    margin: 2px;
+    margin-right: 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+}
+
+.orangeImage {
+  float: left;
+  height: 400px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 250px;
+}
+
+p {
+  font-size: 40px;
+  margin-top: 300px;
+  margin-left: 100px;
+}
+/*div {
+    width: 100%;
+    height: 100px;
+    background: aquamarine;
+    box: 10px 10px 5px #888888;
+
+    }*/
